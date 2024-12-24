@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'transformers',
     'rest_framework', # For API Creation
     # Our App Name
     'ImageCaptionGen',
