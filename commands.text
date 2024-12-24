@@ -1,0 +1,5 @@
+Invoke-WebRequest -Uri "http://127.0.0.1:8000/api/generate-caption" `
+    -Method Post `
+    -ContentType "multipart/form-data" `
+    -InFile "C:\Users\User\Pictures\Screenshots\Admin-Data-Validation.png" `
+    -Headers @{"Content-Type" = "multipart/form-data"}

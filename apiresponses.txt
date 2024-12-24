@@ -1,0 +1,13 @@
+curl.exe -X POST http://127.0.0.1:8000/api/generate-caption/ `
+>>   -H "Content-Type: multipart/form-data" `
+>>   -F "image=@C:/Users/User/Pictures/Screenshots/Delete-Record-Admin.png"
+>>
+
+Response: 
+{"id":1,"image_url":"/media/images/Delete-Record-Admin.png","caption":"the screen showing the settings and settings for the web"}
+
+Terminal View:
+[24/Dec/2024 19:24:29] "POST /api/generate-caption/ HTTP/1.1" 400 36
+Request Data: <QueryDict: {'image': [<InMemoryUploadedFile: Delete-Record-Admin.png (image/png)>]}>
+Files: <MultiValueDict: {'image': [<InMemoryUploadedFile: Delete-Record-Admin.png (image/png)>]}>
+[24/Dec/2024 19:28:30] "POST /api/generate-caption/ HTTP/1.1" 201 129
