@@ -1,11 +1,11 @@
 import React from 'react';
-import UploadImage from './components/UploadImage';
+import LandingPage from './components/LandingPage';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Image Caption Generator</h1>
-      <UploadImage />
+      {/* Render the LandingPage component */}
+      <LandingPage />
     </div>
   );
 };
