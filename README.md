@@ -53,7 +53,7 @@ To run the development version of the project, follow the steps below:
 
 Below is a demo of the application where an image is uploaded and the caption is successfully generated:
 
-![Demo Screenshot](media/images/demo_screenshot.png)
+![Demo Screenshot](media/images/demo-screenshot.png)
 
 ## Contributing
 
