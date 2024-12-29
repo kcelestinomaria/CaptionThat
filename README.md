@@ -27,7 +27,7 @@ To run the development version of the project, follow the steps below:
     ```bash
     python manage.py runserver
     ```
-   This will start the backend on `http://127.0.0.1:8000`.
+   This will start the backend on `http://127.0.0.1:8000`(or `8080`, it depends on the open ports available on your computer or the port you desire to have it served).
 
 ### 2. Set up the Frontend
 1. Navigate to the `frontend/` directory:
@@ -42,7 +42,7 @@ To run the development version of the project, follow the steps below:
     ```bash
     npm run dev
     ```
-   This will start the frontend on `http://localhost:3000`.
+   This will start the frontend on `http://localhost:3000`(or `3030`, it depends on the open ports available on your computer or the port you desire to have it served).
 
 ### 3. Using the Application
 1. After both the frontend and backend are running, open your browser and go to `http://localhost:3000`.
