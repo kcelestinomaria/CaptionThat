@@ -1,6 +1,7 @@
 from rest_framework import serializers
+from .models import Caption
 
-class CaptionSerializer(serializers.Serializer):
-    image = serializers.ImageField()
-
-    
+class CaptionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Caption
+        fields = ['image']
